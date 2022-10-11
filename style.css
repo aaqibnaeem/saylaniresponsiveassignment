@@ -309,6 +309,14 @@ ul {
   background-color: #E6EEF1;
 }
 
+.project-card a{
+  text-decoration: none !important;
+}
+
+.project-card a:hover {
+  text-decoration: underline !important;
+}
+
 .fa-briefcase-medical{
   color: red;
 }
@@ -320,6 +328,57 @@ ul {
 }
 .fa-seedling{
   color: #008f00;
+}
+
+.blue-hl,.green-hl{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blue-hl{
+  color: #0A4DBB;
+}
+
+.green-hl{
+  color: #008f00;
+}
+
+.gallery-container{
+  min-height: 400px;
+}
+
+.gallery-img{
+  width: 210px;
+  transition: all 0.5s ease;
+}
+
+.gallery-img:hover{
+  height: 170px;
+  object-fit: cover;
+}
+
+.footer-section{
+  background-color: #666;
+}
+
+.footer-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  font-weight: 700;
+}
+
+.copy-dev{
+  font-size: 12px;
+}
+
+.gototop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.go-top-icon{
+  opacity: 0.5;
+  font-size: 2rem;
 }
 
 
