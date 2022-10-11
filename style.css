@@ -11,6 +11,9 @@
   text-decoration: none;
   list-style: none;
 }
+body{
+  background-color: #f8f9fa;
+}
 
 dl,
 ol,
@@ -232,7 +235,97 @@ ul {
   padding: 12px 25px;
 }
 
-@media (max-width: 500px) {
+.intro,.duction{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-transform:uppercase;
+}
+
+.intro{
+  color: #0A4DBB;
+}
+
+.duction{
+  color:#008f00;
+}
+
+.intro-desc{
+  text-align: justify;
+}
+
+.fa-utensils,
+.fa-people-roof,
+.fa-stethoscope,
+.fa-graduation-cap{
+  font-size : 2em;
+}
+
+.what-we,.are-doing{
+  font-family: poppins,sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-transform:uppercase;
+}
+
+.what-we{
+  color:#0A4DBB
+}
+
+.are-doing{
+  color:#008f00;
+}
+
+.card{
+  box-shadow: 3px 10px 10px gray;
+  min-height: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 12px;
+}
+
+.card i{
+  font-size: 2em;
+  color: #008f00;
+}
+
+.projects-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.project-card{
+  height: 70px;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 15px;
+  font-size: 22px;
+  background-color: #E6EEF1;
+}
+
+.fa-briefcase-medical{
+  color: red;
+}
+.fa-house{
+  color: #008f00;
+}
+.fa-laptop{
+  color: #0A4DBB;
+}
+.fa-seedling{
+  color: #008f00;
+}
+
+
+
+
+@media (max-width: 520px) {
   .headline-ul {
     flex-direction: column;
   }
