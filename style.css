@@ -104,6 +104,7 @@ ul {
 .nav-li {
   margin: 0 8px;
   font-size: 13px;
+  font-weight: 500;
   cursor: pointer;
   color: #666;
 }
@@ -238,7 +239,7 @@ ul {
 .intro,.duction{
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   text-transform:uppercase;
 }
 
@@ -377,8 +378,10 @@ ul {
 }
 
 .go-top-icon{
-  opacity: 0.5;
+  opacity: 0.6;
   font-size: 2rem;
+  z-index: 2000;
+  color:#008f00;
 }
 
 
