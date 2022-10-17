@@ -382,6 +382,8 @@ ul {
   font-size: 2rem;
   z-index: 2000;
   color:#008f00;
+  border: 2px solid #fff;
+  border-radius: 100%;
 }
 
 
